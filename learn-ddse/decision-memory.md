@@ -4,6 +4,7 @@ title: Decision Memory
 parent: Learn DDSE
 nav_order: 3
 description: "How decision records emerged in industry and became the foundation of DDSE methodology"
+seo_title: "Decision Memory: Evolution of Technical Decision Documentation"
 ---
 
 # 🧠 Decision Memory

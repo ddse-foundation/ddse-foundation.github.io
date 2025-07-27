@@ -4,6 +4,7 @@ title: Templates & Tools
 parent: Implementation
 nav_order: 1
 description: "TDR templates, validation tools, and creation utilities"
+seo_title: "DDSE Templates: Technical Decision Record Tools"
 ---
 
 # 📋 Templates & Tools

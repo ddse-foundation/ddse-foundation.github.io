@@ -3,7 +3,8 @@ layout: default
 title: Examples
 nav_order: 5
 has_children: true
-description: "Practical DDSE implementations demonstrating Technical Decision Records and AI-assisted development workflows"
+description: "Explore real-world DDSE implementations with practical Technical Decision Records (TDRs), AI integration examples, and complete project walkthroughs showing human-AI collaboration in action."
+seo_title: "DDSE Examples: Technical Decision Records in Practice"
 ---
 
 ## Examples

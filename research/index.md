@@ -57,7 +57,7 @@ Modern software development faces unprecedented complexity with distributed team
     - [DDSE Implementation Tools](#ddse-implementation-tools)
     - [AI Development Tools Referenced](#ai-development-tools-referenced)
     - [DDSE Community and Updates](#ddse-community-and-updates)
-    - [Getting Started with DDSE](#getting-started-with-ddse)
+    - [Implementation Resources](#implementation-resources)
     - [Citation](#citation)
 
 Software engineering practices are evolving in response to rapid technological and organizational changes. Development teams today are often geographically distributed and work on complex, microservice-based architectures, all while leveraging AI coding assistants (e.g. GitHub Copilot) to boost productivity. In this context, *technical decisions* – such as architectural patterns, framework selections, or infrastructure approaches – have far-reaching consequences on project outcomes. However, many organizations lack a systematic way to record and manage these decisions. Critical design rationales get scattered across meeting notes, chat threads, or individual minds, leading to knowledge loss and repeated debates about previously settled issues. Over time, the absence of decision traceability contributes to **architectural drift**, where the implemented system diverges from its intended design principles. This drift is exacerbated in fast-moving Agile environments that prioritize working code, sometimes at the expense of documentation and long-term consistency.
@@ -543,11 +543,11 @@ In summary, **Decision-Driven Software Engineering** aligns with the perennial g
 - **DDSE Blog**: [https://ddse-foundation.github.io/blog/](https://ddse-foundation.github.io/blog/) - Latest updates and case studies
 - **DDSE Twitter**: [@DDSEFoundation](https://twitter.com/DDSEFoundation) - Follow for updates and community highlights
 
-### Getting Started with DDSE
+### Implementation Resources
 
-1. **Quick Start Guide**: [https://ddse-foundation.github.io/docs/quick-start/](https://ddse-foundation.github.io/docs/quick-start/) - Begin implementing DDSE in your team
-2. **Team Templates**: [https://ddse-foundation.github.io/templates/](https://ddse-foundation.github.io/templates/) - Ready-to-use templates for different team sizes
-3. **Integration Guides**: [https://ddse-foundation.github.io/docs/integration/](https://ddse-foundation.github.io/docs/integration/) - How to integrate DDSE with existing workflows
+1. **Implementation Guide**: [DDSE Implementation]({% link implementation/index.md %}) - Begin implementing DDSE in your team
+2. **TDR Templates**: [Templates and Tools]({% link implementation/templates/index.md %}) - Ready-to-use templates for different decision types
+3. **Interactive Builder**: [AI Collaboration Methods]({% link implementation/templates/interactive-builder.md %}) - How to integrate DDSE with AI development tools
 
 ### Citation
 

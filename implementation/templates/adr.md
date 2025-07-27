@@ -5,6 +5,7 @@ parent: Templates & Tools
 grand_parent: Implementation
 nav_order: 2
 description: "Architectural Decision Record template"
+seo_title: "Architectural Decision Record Template - DDSE"
 ---
 
 # ADR Template

@@ -5,6 +5,7 @@ parent: Templates & Tools
 grand_parent: Implementation
 nav_order: 4
 description: "Implementation Decision Record template"
+seo_title: "Implementation Decision Record Template - DDSE"
 ---
 
 # IDR Template

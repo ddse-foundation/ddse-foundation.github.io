@@ -2,7 +2,8 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Decision-Driven Software Engineering - A Methodology for Human-AI Collaboration in Software Development"
+description: "Learn how Decision-Driven Software Engineering (DDSE) enables effective human-AI collaboration through structured Technical Decision Records (TDRs) that guide AI tools while preserving human authority over software decisions."
+seo_title: "DDSE: Decision-Driven Software Engineering for AI-Human Collaboration"
 permalink: /
 ---
 
@@ -19,61 +20,68 @@ A Methodology for Human-AI Collaboration in Software Development
 
 ## Overview
 
-**Decision-Driven Software Engineering (DDSE)** is a methodological framework that integrates systematic decision documentation into software development processes. The methodology addresses the fundamental challenge that software engineering primarily consists of making technical decisions under uncertainty, and that these decisions should be captured, analyzed, and leveraged for both human understanding and AI collaboration.
+**Decision-Driven Software Engineering (DDSE)** is a methodological framework that integrates systematic decision documentation with AI-assisted development processes. The methodology addresses the fundamental challenge that software engineering primarily consists of making technical decisions under uncertainty, and that these decisions should be captured, structured, and leveraged to enable effective human-AI collaboration.
+
+DDSE ensures that **human intelligence defines the WHAT and WHY** of software decisions, while **artificial intelligence accelerates the HOW** of implementation, creating a synergistic partnership that enhances both development speed and quality.
 
 ### Integration with Software Development Lifecycle
 
-DDSE provides a structured approach to decision governance throughout the development process:
+DDSE provides a structured approach to human-AI collaboration throughout the development process:
 
 <div class="code-example" markdown="1">
 
 ```
-Requirements → Decision Analysis → Implementation → Validation → Maintenance
-     ↓              ↓                 ↓           ↓         ↓
-  Identify      Document TDRs     Implement     Verify    Evolve
-  decision      with context      according     decision  decisions
-  points                          to TDRs       outcomes
+Requirements → TDR Creation → Implementation → CI/CD → Maintenance
+     ↓              ↓             ↓          ↓         ↓
+   AI helps    AI drafts TDRs  AI generates  AI validates  AI suggests
+   clarify     Human approves   code with     compliance   updates
+   ambiguity   & owns decision  TDR context
 ```
 
 **Requirements Analysis Phase**
-- Identification of decision points requiring documentation
-- Creation of Major Design Decisions (MDDs) for strategic architectural choices
-- Structured capture of business constraints and technical requirements
+- AI assists in identifying ambiguities and decision points requiring documentation
+- Human-driven creation of Major Design Decisions (MDDs) for strategic architectural choices
+- AI-enhanced capture of business constraints and technical requirements through structured prompting
 
-**Design and Architecture Phase**  
-- Development of Architectural Decision Records (ADRs) for system-level choices
-- Documentation of technology selection rationale and trade-offs
-- Establishment of decision dependencies and relationships
+**TDR Creation Phase**  
+- AI drafts initial Technical Decision Records based on context and patterns
+- Human review, approval, and ownership of all documented decisions
+- Collaborative refinement of decision rationale and trade-offs
+- Establishment of AI context sections for implementation guidance
 
 **Implementation Phase**
-- Creation of Implementation Decision Records (IDRs) for coding patterns and conventions
-- Integration of decision context into development workflows
-- Systematic application of documented decision frameworks
-**Continuous Integration and Testing Phase**
-- Validation of implementation against documented decision criteria
-- Automated verification of decision compliance in code
-- Integration of decision context into testing strategies
+- AI generates code following documented patterns and constraints from TDRs
+- Human oversight ensures alignment with decision intentions and quality standards
+- Context-aware AI assistance accelerates development while maintaining consistency
+- Systematic application of human-defined architectural frameworks
+
+**CI/CD Validation Phase**
+- AI validates implementation compliance against documented decision criteria
+- Automated verification of decision adherence in code reviews and builds
+- Human-defined quality gates with AI-powered enforcement
+- Integration of decision context into testing and deployment strategies
 
 **Maintenance and Evolution Phase**
-- Systematic evaluation of decision outcomes and effectiveness
-- Documentation of decision modifications and their rationale
-- Preservation of institutional knowledge across team changes
+- AI suggests updates and improvements based on evolving requirements
+- Human evaluation of decision outcomes and effectiveness over time
+- AI-assisted documentation of decision modifications and their rationale
+- Preservation of institutional knowledge across team changes with AI indexing
 
 </div>
 
 ### Application in Agile Development
 
-DDSE provides decision governance mechanisms that complement Agile methodologies:
+DDSE provides human-AI collaboration mechanisms that enhance Agile methodologies:
 
 **Sprint Planning Integration**
-- Systematic identification of decision dependencies in user stories
-- Classification of decisions requiring formal documentation versus informal resolution
-- Integration of decision work into sprint backlogs and capacity planning
+- AI-assisted identification of decision dependencies in user stories
+- Human classification of decisions requiring formal documentation versus informal resolution
+- AI helps estimate decision work complexity for sprint backlogs and capacity planning
 
 **Iterative Decision Refinement**
-- Regular evaluation of decision outcomes during sprint reviews
-- Systematic capture of lessons learned in decision documentation
-- Continuous improvement of decision templates and processes
+- AI-powered analysis of decision outcomes during sprint reviews
+- Human-guided capture of lessons learned in decision documentation
+- Collaborative improvement of decision templates and AI context sections
 
 ### Methodological Principles
 
@@ -110,9 +118,9 @@ DDSE employs a hierarchical framework for technical decision documentation:
 
 </div>
 
-## AI Integration Methodology
+## Human-AI Collaboration Framework
 
-DDSE provides structured approaches for AI tool integration in software development:
+DDSE provides structured approaches for AI tool integration throughout software development:
 
 ```yaml
 # Example: AI Context Specification in TDR
@@ -127,11 +135,13 @@ ai_context:
     Non-negotiable requirements, recommended practices, and prohibited approaches
 ```
 
-This structured approach enables AI tools to:
-- Generate code consistent with documented architectural patterns
-- Respect established technical constraints and requirements  
-- Implement solutions aligned with documented business rules
-- Maintain consistency across multiple development sessions
+This human-AI collaboration framework enables AI tools to:
+- Generate code consistent with human-documented architectural patterns
+- Respect established technical constraints and requirements defined by human experts
+- Implement solutions aligned with human-approved business rules and decisions
+- Maintain consistency across multiple development sessions and team members
+
+The methodology ensures **human authority over all decisions** while **amplifying human capability through AI assistance** at every stage of development.
 
 ---
 

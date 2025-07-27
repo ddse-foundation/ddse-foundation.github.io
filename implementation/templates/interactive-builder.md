@@ -5,6 +5,7 @@ parent: Templates & Tools
 grand_parent: Implementation
 nav_order: 1
 description: "Methods for collaborating with AI tools to create DDSE-compliant TDRs"
+seo_title: "AI Collaboration for Technical Decision Records"
 ---
 
 # AI Collaboration Methods for TDR Creation

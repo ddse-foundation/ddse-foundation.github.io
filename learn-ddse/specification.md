@@ -4,6 +4,7 @@ title: Specification
 parent: Learn DDSE
 nav_order: 2
 description: "Complete technical specification for implementing Decision-Driven Software Engineering"
+seo_title: "DDSE Specification: Technical Implementation Guide"
 ---
 
 # 📋 DDSE Specification v1.0

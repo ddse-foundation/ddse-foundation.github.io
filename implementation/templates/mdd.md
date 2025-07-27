@@ -5,6 +5,7 @@ parent: Templates & Tools
 grand_parent: Implementation
 nav_order: 1
 description: "Major Design Decision template"
+seo_title: "Major Design Decision Template - DDSE"
 ---
 
 # MDD Template

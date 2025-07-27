@@ -4,6 +4,13 @@ title: TDM Template
 parent: Templates & Tools
 grand_parent: Implementation
 nav_order: 5
+description: "Trade-off Decision Matrix template"
+seo_title: "Trade-off Decision Matrix Template - DDSE"
+---ut: default
+title: TDM Template
+parent: Templates & Tools
+grand_parent: Implementation
+nav_order: 5
 description: "Technical Decision Memo template"
 ---
 

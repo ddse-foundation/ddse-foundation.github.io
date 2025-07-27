@@ -5,6 +5,7 @@ parent: Templates & Tools
 grand_parent: Implementation
 nav_order: 3
 description: "Engineering Decision Record template"
+seo_title: "Engineering Decision Record Template - DDSE"
 ---
 
 # EDR Template

@@ -3,7 +3,8 @@ layout: default
 title: Implementation
 nav_order: 4
 has_children: true
-description: "Academic methodology for integrating Decision-Driven Software Engineering into development workflows with Technical Decision Records (TDRs)"
+description: "Complete implementation guide for Decision-Driven Software Engineering: Learn to create Technical Decision Records (TDRs), integrate AI tools, and establish human-AI collaboration workflows in your development team."
+seo_title: "DDSE Implementation Guide: From Theory to Practice"
 ---
 
 # DDSE Implementation Methodology
@@ -103,7 +104,6 @@ Decision documentation should be embedded within existing development workflows 
 
 - **[TDR Templates]({% link implementation/templates/index.md %})** - Structured formats for different decision types
 - **[AI Collaboration Guide]({% link implementation/templates/interactive-builder.md %})** - Methods for AI-assisted TDR creation
-- **[Quick Start Protocol]({% link getting-started/quick-start.md %})** - Systematic approach to first TDR creation
 
 ### Theoretical Foundation
 
