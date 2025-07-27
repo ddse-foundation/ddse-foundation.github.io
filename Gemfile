@@ -1,7 +1,14 @@
 source "https://rubygems.org"
 
+# GitHub Pages gem includes Jekyll and supported plugins
 gem "github-pages", group: :jekyll_plugins
+
+# Use just-the-docs as a remote theme
 gem "just-the-docs"
+
+# Required for GitHub Pages builds
+gem "jekyll", "~> 3.9"
+gem "webrick", "~> 1.8" # Required for Ruby 3.0+
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

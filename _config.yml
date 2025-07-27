@@ -9,7 +9,6 @@ url: "https://ddse-foundation.github.io"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: just-the-docs
 
 # Just the Docs theme configuration
 remote_theme: just-the-docs/just-the-docs
