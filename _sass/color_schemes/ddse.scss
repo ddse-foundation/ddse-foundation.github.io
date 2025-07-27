@@ -1,0 +1,34 @@
+$color-schemes: () !default;
+$color-schemes: map-merge((
+  "ddse": (
+    primary: #2c3e50,
+    secondary: #3498db,
+    accent: #e74c3c,
+    success: #27ae60,
+    warning: #f39c12,
+    danger: #e74c3c,
+    info: #3498db,
+    light: #f8f9fa,
+    dark: #2c3e50,
+    text-primary: #2c3e50,
+    text-secondary: #6c757d,
+    text-muted: #6c757d,
+    background: #ffffff,
+    background-secondary: #f8f9fa,
+    border: #dee2e6,
+    code-background: #f8f9fa,
+    sidebar-background: #f8f9fa,
+    nav-background: #ffffff,
+    link-color: #3498db,
+    link-hover-color: #2980b9,
+    btn-primary-background: #3498db,
+    btn-primary-hover-background: #2980b9,
+    btn-outline-color: #3498db,
+    btn-outline-hover-background: #3498db,
+    search-background: #ffffff,
+    search-border: #dee2e6,
+    table-border: #dee2e6,
+    table-background: #ffffff,
+    table-header-background: #f8f9fa
+  )
+), $color-schemes);

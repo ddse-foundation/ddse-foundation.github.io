@@ -1,0 +1,103 @@
+# DDSE Foundation Learning Center Configuration
+
+# Site settings
+title: "DDSE Foundation"
+description: "Decision-Driven Software Engineering for the AI Era"
+baseurl: "" # For GitHub Pages
+url: "https://ddse-foundation.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: just-the-docs
+
+# Just the Docs theme configuration
+remote_theme: just-the-docs/just-the-docs
+
+# Color scheme
+color_scheme: ddse
+
+# Logo and branding
+logo: "/images/ddse-logo.svg"
+
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Navigation structure
+nav_sort: case_insensitive
+nav_external_links:
+  - title: GitHub Repository
+    url: https://github.com/ddse-foundation/ddse-foundation
+    hide_icon: false
+
+# Footer content
+footer_content: "Copyright &copy; 2025 DDSE Foundation. Distributed under the <a href=\"https://github.com/ddse-foundation/ddse-foundation/blob/main/LICENSE\">MIT License</a>."
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer last modified
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+
+# Google Analytics (if needed)
+# ga_tracking: UA-XXXXXXXX-X
+
+# Collection for examples
+collections:
+  examples:
+    permalink: "/:collection/:name/"
+    output: true
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - node_modules/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# Include
+include:
+  - _pages
+
+# SEO settings
+author: "Mahmudur R Manna"
+twitter:
+  username: ddse_foundation
+  card: summary_large_image
+
+social:
+  name: DDSE Foundation
+  links:
+    - https://github.com/ddse-foundation
+    - https://github.com/ddse-foundation/ddse-foundation
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "_examples"
+    values:
+      layout: default
+      parent: "Examples"

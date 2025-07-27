@@ -1,0 +1,39 @@
+<!-- Custom head includes for DDSE Foundation -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicon configuration using DDSE logo -->
+<link rel="icon" type="image/svg+xml" href="/images/ddse-logo.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="theme-color" content="#2c3e50">
+
+<!-- Open Graph / Social Media -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DDSE Foundation">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ '/images/ddse-logo.png' | absolute_url }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{{ page.description | default: site.description }}">
+<meta name="twitter:image" content="{{ '/images/ddse-logo.png' | absolute_url }}">
+
+<!-- Structured Data for Google -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "DDSE Foundation",
+  "url": "{{ site.url }}",
+  "logo": "{{ '/images/ddse-logo.png' | absolute_url }}",
+  "description": "{{ site.description }}",
+  "sameAs": [
+    "https://github.com/ddse-foundation/ddse-foundation"
+  ]
+}
+</script>
