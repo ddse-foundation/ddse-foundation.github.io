@@ -7,15 +7,6 @@ description: "The philosophical foundation and methodological principles of Deci
 seo_title: "DDSE Manifesto: Principles of Decision-Driven Software Engineering"
 ---
 
----
-layout: default
-title: Manifesto
-parent: Learn DDSE
-nav_order: 1
-description: "The philosophical foundation and methodological principles of Decision-Driven Software Engineering"
-seo_title: "DDSE Manifesto: Principles of Decision-Driven Software Engineering"
----
-
 # The DDSE Manifesto
 {: .no_toc }
 
