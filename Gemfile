@@ -6,6 +6,9 @@ gem "github-pages", group: :jekyll_plugins
 # Use just-the-docs as a remote theme
 gem "just-the-docs"
 
+# Add jekyll-remote-theme for local development (GitHub Pages includes this automatically)
+gem "jekyll-remote-theme"
+
 # Required for GitHub Pages builds
 gem "jekyll", "~> 3.9"
 gem "webrick", "~> 1.8" # Required for Ruby 3.0+

@@ -1,0 +1,23 @@
+# Local development overrides for DDSE Foundation site
+# This file extends _config.yml for local Jekyll development only
+
+# Local development settings
+baseurl: ""
+url: "http://localhost:4000"
+
+# Add jekyll-remote-theme plugin for local development
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Enable incremental builds for faster development
+incremental: true
+
+# Show drafts and future posts in development
+show_drafts: true
+future: true
+
+# Disable analytics in local development
+# ga_tracking: false
