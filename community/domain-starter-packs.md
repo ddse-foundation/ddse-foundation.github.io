@@ -562,40 +562,6 @@ certifications:
 
 ---
 
-## Success Stories: Packs That Changed Everything
-
-### Case Study 1: RAG Service Pack Saves 200 Engineering Hours
-
-**Background**: TechCorp needed to build 5 different RAG-powered features across their product suite. Each team was independently researching vector databases, chunking strategies, and prompt optimization.
-
-**Solution**: The community RAG Service Pack provided:
-- Pre-researched vector database comparison (ADR-001)
-- Optimized chunking strategy for different content types (EDR-003)
-- Production-ready monitoring and cost controls (IDR-007)
-
-**Results**:
-- 4 weeks → 3 days for first RAG service deployment
-- Consistent architecture across all RAG implementations
-- 40% better retrieval quality due to optimized chunking
-- $12,000 saved in engineering costs per service
-
-### Case Study 2: Fintech Startup Achieves SOX Compliance in Weeks
-
-**Background**: FinanceAI needed to build a transaction processing system that would pass SOX compliance audits from day one.
-
-**Solution**: Used the Fintech Core Ledger Pack which included:
-- Double-entry bookkeeping patterns (ADR-002)
-- Immutable audit trail requirements (EDR-005)
-- PCI-compliant data handling (IDR-012)
-
-**Results**:
-- Passed SOX audit on first attempt
-- 6 months → 3 weeks for compliance-ready system
-- Clear decision documentation satisfied auditors
-- Reduced legal and compliance consulting costs by 80%
-
----
-
 ## Getting Started: Your First Contribution
 
 ### Week 1: Choose Your Domain
