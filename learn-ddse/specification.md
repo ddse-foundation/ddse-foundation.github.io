@@ -7,16 +7,31 @@ description: "Complete technical specification for implementing Decision-Driven 
 seo_title: "DDSE Specification: Technical Implementation Guide"
 ---
 
-# 📋 DDSE Specification v1.0
+# 📋 DDSE Specification v1.1
 {: .no_toc }
 
 ## Complete Technical Standards for Decision-Driven Software Engineering
 
 **Document Status**: Final  
-**Version**: 1.0  
-**Date**: July 26, 2025  
+**Version**: 1.1  
+**Date**: August 3, 2025  
 **Maintainer**: DDSE Foundation  
 **License**: MIT  
+
+## Version 1.1 Changes
+
+This version introduces critical enhancements for **Greenfield Architecture Pattern** and contract-driven development:
+
+### New Features
+- **Contract Decision Records (CDRs)**: New TDR type for API and integration contracts
+- **Greenfield Architecture Pattern**: Systematic approach for new project initialization
+- **Decision-to-Implementation Traceability**: Standards for linking decisions to code
+- **Enhanced AI Context**: Improved AI integration for contract-driven development
+
+### Breaking Changes
+- CDR template addition requires updated validation rules
+- Traceability annotations become REQUIRED for new implementations
+- Contract-first development workflow integration  
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -35,12 +50,15 @@ This specification defines the standards, practices, and organizational structur
 ### 1.2 Scope
 
 This specification covers:
-- TDR taxonomy and classification
+- TDR taxonomy and classification (expanded with CDRs)
 - Organizational structure within codebases
 - Integration with project management tools (Jira, Azure Boards, GitHub Issues)
-- Template standards for automated parsing
-- AI-assisted development integration
+- Template standards for automated parsing (including contract specifications)
+- AI-assisted development integration (enhanced with contract context)
 - Compliance and governance requirements
+- **Greenfield Architecture Pattern** for new project initialization
+- **Contract Decision Records** for API and service specifications
+- **Decision-to-Implementation Traceability** standards
 
 ### 1.3 Normative Requirements
 
@@ -98,21 +116,28 @@ MDD (Major Design Decision)
 - **Authority**: Solution architects, Technical leads
 - **Lifecycle**: Medium-term (months to years)
 
-#### 3.2.3 Engineering Decision Record (EDR)
+#### 3.2.3 Contract Decision Record (CDR) ⭐ *New in v1.1*
+- **Scope**: API contracts, service interfaces, and integration specifications
+- **Level**: Service boundary level
+- **Examples**: REST API specifications, message schemas, service interfaces
+- **Authority**: API architects, Service owners
+- **Lifecycle**: Medium-term (evolves with API versions)
+
+#### 3.2.4 Engineering Decision Record (EDR)
 - **Scope**: Development practices and tooling
 - **Level**: Team/Project level
 - **Examples**: CI/CD pipeline, Testing strategy, Code standards
 - **Authority**: Technical leads, Senior engineers
 - **Lifecycle**: Medium-term (sprints to months)
 
-#### 3.2.4 Implementation Decision Record (IDR)
+#### 3.2.5 Implementation Decision Record (IDR)
 - **Scope**: Component-specific implementation choices
 - **Level**: Component/Feature level
 - **Examples**: Algorithm selection, Library choices, Design patterns
 - **Authority**: Feature owners, Developers
 - **Lifecycle**: Short-term (sprints to months)
 
-#### 3.2.5 Trade-off Decision Matrix (TDM)
+#### 3.2.6 Trade-off Decision Matrix (TDM)
 - **Scope**: Supporting analysis for any TDR type
 - **Level**: Any level
 - **Examples**: Framework comparison, Performance analysis, Cost-benefit analysis
@@ -145,8 +170,10 @@ project-root/
 ├── tdr/
 │   ├── mdd/
 │   │   └── mdd-001-cloud-deployment.md
-│   └── adr/
-│       └── adr-001-microservices-architecture.md
+│   ├── adr/
+│   │   └── adr-001-microservices-architecture.md
+│   └── cdr/
+│       └── cdr-001-user-api-contract.md
 ├── src/
 │   ├── user-service/
 │   │   ├── tdr/
@@ -166,6 +193,7 @@ project-root/
 ├── tdr/
 │   ├── mdd/
 │   ├── adr/
+│   ├── cdr/
 │   ├── user-service/
 │   │   ├── edr/
 │   │   └── idr/

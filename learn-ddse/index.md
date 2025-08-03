@@ -37,7 +37,12 @@ Decision-Driven Software Engineering (DDSE) is a methodological framework that i
 **[Specification]({% link learn-ddse/specification.md %})**
 : Complete technical specification for implementing Decision-Driven Software Engineering
 
-### 3. Historical Context: Decision Memory
+### 3. Contract-Driven Development: SDLC Integration
+
+**[Contracts in SDLC]({% link learn-ddse/sdlc-contracts.md %})**
+: How Contract Decision Records transform greenfield development through systematic API design
+
+### 4. Historical Context: Decision Memory
 
 **[Decision Memory]({% link learn-ddse/decision-memory.md %})**
 : Understanding the evolution of decision documentation approaches in software engineering
