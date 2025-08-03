@@ -3,7 +3,7 @@ layout: default
 title: IDR Template
 parent: Templates & Tools
 grand_parent: Implementation
-nav_order: 4
+nav_order: 5
 description: "Implementation Decision Record template"
 seo_title: "Implementation Decision Record Template - DDSE"
 ---

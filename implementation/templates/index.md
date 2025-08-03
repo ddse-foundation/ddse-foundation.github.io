@@ -31,6 +31,7 @@ Production-ready templates for all TDR types with AI context sections:
 |----------|---------|------------|------------------|
 | **[MDD Template]({% link implementation/templates/mdd.md %})** | Major Design Decisions | High | 1-2 hours |
 | **[ADR Template]({% link implementation/templates/adr.md %})** | Architectural Decisions | Medium | 30-60 minutes |
+| **[CDR Template]({% link implementation/templates/cdr.md %})** | Contract Specifications | Medium | 45-90 minutes |
 | **[EDR Template]({% link implementation/templates/edr.md %})** | Engineering Decisions | Medium | 20-40 minutes |
 | **[IDR Template]({% link implementation/templates/idr.md %})** | Implementation Decisions | Low | 10-20 minutes |
 | **[TDM Template]({% link implementation/templates/tdm.md %})** | Technical Decision Memos | Low | 5-10 minutes |

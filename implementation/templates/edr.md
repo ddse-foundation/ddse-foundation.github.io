@@ -3,7 +3,7 @@ layout: default
 title: EDR Template
 parent: Templates & Tools
 grand_parent: Implementation
-nav_order: 3
+nav_order: 4
 description: "Engineering Decision Record template"
 seo_title: "Engineering Decision Record Template - DDSE"
 ---
