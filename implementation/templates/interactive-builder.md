@@ -10,8 +10,8 @@ seo_title: "AI Collaboration for Technical Decision Records - DDSE v1.1"
 
 # AI Collaboration Methods for DDSE v1.1 TDR Creation
 
-This guide outlines systematic approaches for collaborating with AI tools to create Technical Decision Records that comply wit  # AI validates implementation against TDR specifications
-}
+This guide outlines systematic approaches for collaborating with AI tools to create Technical Decision Records that comply with TDR specifications
+
 ```
 
 ---
